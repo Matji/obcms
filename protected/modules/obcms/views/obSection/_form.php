@@ -32,9 +32,9 @@
 	</div>
 
 	<div class="row">
+                <?php //print_r($obSection); ?>
 		<?php echo $form->labelEx($model,'sectionTypeID'); ?>
-		<?php echo $form->textField($model,'sectionTypeID'); ?>
-		<?php echo $form->error($model,'sectionTypeID'); ?>
+		<?php echo CHtml::dropDownList('sectionType', array(), array('M' => 'Male', 'F' => 'Female')); ?>
 	</div>
 
 	<div class="row">

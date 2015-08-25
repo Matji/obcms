@@ -1,25 +1,20 @@
 <?php
 
 /**
- * This is the model class for table "obsection".
+ * This is the model class for table "obsectiontype".
  *
- * The followings are the available columns in table 'obsection':
- * @property string $sectionTitle
- * @property string $sectionName
- * @property integer $sectionTypeID
+ * The followings are the available columns in table 'obsectiontype':
  * @property integer $id
- * @property integer $order
- * @property integer $parentID
- * @property string $sectionContent
+ * @property string $typeName
  */
-class Obsection extends CActiveRecord
+class Obsectiontype extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'obsection';
+		return 'obsectiontype';
 	}
 
 	/**
@@ -30,13 +25,11 @@ class Obsection extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('sectionTitle, sectionName, sectionTypeID, order', 'required'),
-			array('sectionTypeID, order, parentID', 'numerical', 'integerOnly'=>true),
-			array('sectionTitle, sectionName', 'length', 'max'=>50),
-			array('sectionContent', 'length', 'max'=>60000),
+			array('typeName', 'required'),
+			array('typeName', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('sectionTitle, sectionName, sectionTypeID, id, order, parentID, sectionContent', 'safe', 'on'=>'search'),
+			array('id, typeName', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -48,7 +41,7 @@ class Obsection extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-                    'sectionType'=>array(self::BELONGS_TO, 'Obsectiontype', 'sectionTypeID')
+                    'obSection'=>array(self::HAS_MANY, 'Obsection', 'sectionTypeID')
 		);
 	}
 
@@ -58,13 +51,8 @@ class Obsection extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'sectionTitle' => 'Section Title',
-			'sectionName' => 'Section Name',
-			'sectionTypeID' => 'Section Type',
 			'id' => 'ID',
-			'order' => 'Order',
-			'parentID' => 'Parent',
-			'sectionContent' => 'Section Content',
+			'typeName' => 'Type Name',
 		);
 	}
 
@@ -86,13 +74,8 @@ class Obsection extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('sectionTitle',$this->sectionTitle,true);
-		$criteria->compare('sectionName',$this->sectionName,true);
-		$criteria->compare('sectionTypeID',$this->sectionTypeID);
 		$criteria->compare('id',$this->id);
-		$criteria->compare('order',$this->order);
-		$criteria->compare('parentID',$this->parentID);
-		$criteria->compare('sectionContent',$this->sectionContent,true);
+		$criteria->compare('typeName',$this->typeName,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -103,7 +86,7 @@ class Obsection extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Obsection the static model class
+	 * @return Obsectiontype the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

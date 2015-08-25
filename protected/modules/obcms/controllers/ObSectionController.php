@@ -63,7 +63,7 @@ class ObSectionController extends Controller
 	public function actionCreate()
 	{
 		$model=new Obsection;
-
+                $obSection = Obsection::model()->with('sectionType')->findAll();
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
@@ -73,9 +73,10 @@ class ObSectionController extends Controller
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
-
+print_r($obSection[0]);
 		$this->render('create',array(
 			'model'=>$model,
+                        'obSection'=>$obSection
 		));
 	}
 

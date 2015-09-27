@@ -2,8 +2,7 @@
 /* @var $this ObSectionController */
 /* @var $model Obsection */
 /* @var $form CActiveForm */
-?>
-
+?> 
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -21,28 +20,33 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'sectionTitle'); ?>
-		<?php echo $form->textField($model,'sectionTitle',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->textField($model,'sectionTitle',array('size'=>50,'maxlength'=>50, 'id'=>'sectionTitle', 'onkeyup'=>'js:  
+                                var secTitle = document.getElementById("sectionTitle");
+                                var sectionName = document.getElementById("sectionName");
+                                var secName = secTitle.value.toLowerCase();
+                                secName = secName.replace(/[^A-Z0-9]/ig, "");
+                                sectionName.value = secName;
+                                  ')); ?>
 		<?php echo $form->error($model,'sectionTitle'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'sectionName'); ?>
-		<?php echo $form->textField($model,'sectionName',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->textField($model,'sectionName',array('size'=>50,'maxlength'=>50,'id'=>'sectionName', 'readonly'=>true)); ?>
 		<?php echo $form->error($model,'sectionName'); ?>
 	</div>
 
-	<div class="row">
-                <?php //print_r($obSection); ?>
+	<div class="row"> 
 		<?php echo $form->labelEx($model,'sectionTypeID'); ?>
-		<?php echo CHtml::dropDownList('sectionType', array(), array('M' => 'Male', 'F' => 'Female')); ?>
+		<?php echo CHtml::dropDownList('Obsection[sectionTypeID]', array(), CHtml::listData($sectionType, 'id', 'typeName')); ?>
+                <?php //echo $form->error($model,'sectionTypeID'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'order'); ?>
-		<?php echo $form->textField($model,'order'); ?>
-		<?php echo $form->error($model,'order'); ?>
-	</div>
-
+		<?php echo $form->labelEx($model,'orderlist'); ?>
+		<?php echo $form->textField($model,'orderlist'); ?>
+		<?php echo $form->error($model,'orderlist'); ?>
+	</div> 
 	<div class="row">
 		<?php echo $form->labelEx($model,'parentID'); ?>
 		<?php echo $form->textField($model,'parentID'); ?>

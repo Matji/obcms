@@ -21,8 +21,8 @@
 	<?php echo CHtml::encode($data->sectionTypeID); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('order')); ?>:</b>
-	<?php echo CHtml::encode($data->order); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('orderlist')); ?>:</b>
+	<?php echo CHtml::encode($data->orderlist); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('parentID')); ?>:</b>

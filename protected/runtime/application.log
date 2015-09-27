@@ -181,3 +181,2201 @@ REQUEST_URI=/mycms/index.php/obcms/obSection/create
 in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php (35)
 in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\create.php (18)
 in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (80)
+2015/08/27 20:54:14 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php:37)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\create.php(18): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): ObSectionController->renderInternal()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#6 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(78): ObSectionController->render()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionCreate()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#17 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/create
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php (37)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\create.php (18)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (78)
+2015/08/27 20:55:20 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php:7)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\create.php(18): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): ObSectionController->renderInternal()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#6 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(78): ObSectionController->render()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionCreate()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#17 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/create
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php (7)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\create.php (18)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (78)
+2015/08/27 20:55:31 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php:7)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\create.php(18): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): ObSectionController->renderInternal()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#6 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(78): ObSectionController->render()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionCreate()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#17 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/create
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php (7)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\create.php (18)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (78)
+2015/08/27 21:33:35 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php(21): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): ObSectionController->renderInternal()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#6 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(102): ObSectionController->render()
+#7 unknown(0): ObSectionController->actionUpdate()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#18 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#19 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/update/id/1
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php (39)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php (21)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (102)
+2015/08/27 21:33:46 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php(21): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): ObSectionController->renderInternal()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#6 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(102): ObSectionController->render()
+#7 unknown(0): ObSectionController->actionUpdate()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#18 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#19 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/update/id/3
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php (39)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php (21)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (102)
+2015/08/27 21:47:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order DESC' at line 1. The SQL statement executed was: SELECT * FROM `obsection` `t` ORDER BY order DESC.
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (69)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/08/27 21:47:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order DESC' at line 1. The SQL statement executed was: SELECT * FROM `obsection` `t` ORDER BY order DESC' in C:\xampp\htdocs\yii 1.1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(69): CActiveRecord->findAll(Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionCreate()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('create')
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/obSection...')
+#15 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/mycms/index.php/obcms/obSection/create
+HTTP_REFERER=http://localhost/mycms/index.php/obcms/obSection/admin
+---
+2015/08/27 21:48:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1. The SQL statement executed was: SELECT * FROM `obsection` `t` ORDER BY order.
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (69)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/08/27 21:48:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order' at line 1. The SQL statement executed was: SELECT * FROM `obsection` `t` ORDER BY order' in C:\xampp\htdocs\yii 1.1\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(69): CActiveRecord->findAll(Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionCreate()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('create')
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/obSection...')
+#15 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/mycms/index.php/obcms/obSection/create
+HTTP_REFERER=http://localhost/mycms/index.php/obcms/obSection/admin
+---
+2015/08/27 21:49:53 [error] [exception.CException] exception 'CException' with message 'Property "Obsection.order" is not defined.' in C:\xampp\htdocs\yii 1.1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('order')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('order')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(Obsection), 'order')
+#3 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(Obsection), 'order', Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Obsection), 'order', Array)
+#5 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php(45): CActiveForm->textField(Object(Obsection), 'order')
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(80): CController->render('create', Array)
+#15 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionCreate()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/obSection...')
+#26 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/mycms/index.php/obcms/obSection/create
+HTTP_REFERER=http://localhost/mycms/index.php/obcms/obSection/admin
+---
+2015/08/27 21:52:05 [error] [exception.CException] exception 'CException' with message 'Property "Obsection.order" is not defined.' in C:\xampp\htdocs\yii 1.1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('order')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('order')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(Obsection), 'order')
+#3 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(Obsection), 'order', Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Obsection), 'order', Array)
+#5 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_search.php(36): CActiveForm->textField(Object(Obsection), 'order')
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\admin.php(40): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(144): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionAdmin()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/obSection...')
+#26 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/mycms/index.php/obcms/obSection/admin
+HTTP_REFERER=http://localhost/mycms/index.php/obcms/obSection/create
+---
+2015/08/27 21:52:35 [error] [exception.CException] exception 'CException' with message 'Property "Obsection.order" is not defined.' in C:\xampp\htdocs\yii 1.1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('order')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('order')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(Obsection), 'order')
+#3 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(Obsection), 'order', Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Obsection), 'order', Array)
+#5 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_search.php(36): CActiveForm->textField(Object(Obsection), 'order')
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\admin.php(40): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(144): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionAdmin()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/obSection...')
+#26 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/mycms/index.php/obcms/obSection/admin
+HTTP_REFERER=http://localhost/mycms/index.php/obcms/obSection/create
+---
+2015/08/27 21:53:09 [error] [exception.CException] exception 'CException' with message 'Property "Obsection.order" is not defined.' in C:\xampp\htdocs\yii 1.1\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(145): CComponent->__get('order')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('order')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(Obsection), 'order')
+#3 C:\xampp\htdocs\yii 1.1\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(Obsection), 'order', Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(Obsection), 'order', Array)
+#5 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_search.php(36): CActiveForm->textField(Object(Obsection), 'order')
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\admin.php(40): CController->renderPartial('_search', Array)
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#14 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(144): CController->render('admin', Array)
+#15 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionAdmin()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('admin')
+#25 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/obSection...')
+#26 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/mycms/index.php/obcms/obSection/admin
+HTTP_REFERER=http://localhost/mycms/index.php/obcms/obSection/create
+---
+2015/08/27 21:54:14 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php(21): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): ObSectionController->renderInternal()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#6 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(104): ObSectionController->render()
+#7 unknown(0): ObSectionController->actionUpdate()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#18 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#19 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/update/id/2
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php (39)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php (21)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (104)
+2015/08/27 21:54:21 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php(21): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): ObSectionController->renderInternal()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#6 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(104): ObSectionController->render()
+#7 unknown(0): ObSectionController->actionUpdate()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#18 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#19 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/update/id/2
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php (39)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php (21)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (104)
+2015/08/27 21:55:26 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php(21): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): ObSectionController->renderInternal()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#6 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(104): ObSectionController->render()
+#7 unknown(0): ObSectionController->actionUpdate()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#18 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#19 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/update/id/2
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\_form.php (39)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php (21)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (104)
+2015/08/27 21:56:11 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php:21)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(104): ObSectionController->render()
+#3 unknown(0): ObSectionController->actionUpdate()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/update/id/2
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php (21)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (104)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/08/27 21:56:14 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php:21)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(104): ObSectionController->render()
+#3 unknown(0): ObSectionController->actionUpdate()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/update/id/2
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php (21)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (104)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/08/27 21:57:36 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php:21)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(104): ObSectionController->render()
+#3 unknown(0): ObSectionController->actionUpdate()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/update/id/2
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php (21)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (104)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/08/27 21:57:40 [error] [php] Undefined variable: sectionType (C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php:21)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(869): ObSectionController->renderFile()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): ObSectionController->renderPartial()
+#2 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(104): ObSectionController->render()
+#3 unknown(0): ObSectionController->actionUpdate()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/update/id/1
+in C:\xampp\htdocs\mycms\protected\modules\obcms\views\obSection\update.php (21)
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (104)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/09 22:00:08 [error] [php] include(Obsection.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii 1.1\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\mycms\protected\views\layouts\main.php(31): spl_autoload_call()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(214): CContentDecorator->run()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(308): SiteController->endWidget()
+#8 C:\xampp\htdocs\mycms\protected\views\layouts\column1.php(6): SiteController->endContent()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(784): SiteController->renderFile()
+#12 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(32): SiteController->render()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#16 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#17 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#18 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/site/index
+in C:\xampp\htdocs\mycms\protected\views\layouts\main.php (31)
+in C:\xampp\htdocs\mycms\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (32)
+2015/09/09 22:01:26 [error] [php] include(Obsection.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii 1.1\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(32): spl_autoload_call()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/site/index
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/09 22:02:12 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\DefaultController.php(7): CController->render('index')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms')
+#8 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mycms/obcms
+---
+2015/09/09 22:02:25 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\DefaultController.php(7): CController->render('index')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms')
+#8 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mycms/obcms
+---
+2015/09/09 22:02:57 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\DefaultController.php(7): CController->render('index')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms')
+#8 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mycms/index.php/obcms/
+---
+2015/09/09 22:05:59 [error] [php] include(Obsection.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii 1.1\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(32): spl_autoload_call()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/09 22:07:54 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\DefaultController.php(7): CController->render('index')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms')
+#8 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mycms/obcms
+---
+2015/09/09 22:09:32 [error] [php] include(Obsection.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii 1.1\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(127): spl_autoload_call()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionIndex()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/obcms/ObSection
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (127)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/09 22:09:59 [error] [php] include(C:\xampp\htdocs\mycms\protected\modules\obcms\models\Obsection.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii 1.1\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CActiveDataProvider.php(165): model()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CActiveDataProvider.php(87): CActiveDataProvider->getModel()
+#3 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(127): CActiveDataProvider->__construct()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionIndex()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/obcms/ObSection
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (127)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/09 22:11:21 [error] [php] include(C:\xampp\htdocs\mycms\protected\models\Obsection.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii 1.1\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php(138): spl_autoload_call()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): ObSectionController->actionAdmin()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/obcms/obSection/admin
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (138)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/09 22:21:13 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\mycms\protected\views\layouts\main.php:37)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(214): CContentDecorator->run()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(308): SiteController->endWidget()
+#5 C:\xampp\htdocs\mycms\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(33): SiteController->render()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/site/index
+in C:\xampp\htdocs\mycms\protected\views\layouts\main.php (37)
+in C:\xampp\htdocs\mycms\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (33)
+2015/09/09 22:21:23 [error] [php] Illegal string offset 'sectionTitle' (C:\xampp\htdocs\mycms\protected\views\layouts\main.php:37)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(214): CContentDecorator->run()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(308): SiteController->endWidget()
+#5 C:\xampp\htdocs\mycms\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(33): SiteController->render()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/site/index
+in C:\xampp\htdocs\mycms\protected\views\layouts\main.php (37)
+in C:\xampp\htdocs\mycms\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (33)
+2015/09/09 22:45:49 [error] [php] Undefined variable: url (C:\xampp\htdocs\mycms\protected\views\layouts\main.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(214): CContentDecorator->run()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(308): SiteController->endWidget()
+#5 C:\xampp\htdocs\mycms\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(33): SiteController->render()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/site/index
+in C:\xampp\htdocs\mycms\protected\views\layouts\main.php (52)
+in C:\xampp\htdocs\mycms\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (33)
+2015/09/09 22:46:52 [error] [php] Undefined variable: url (C:\xampp\htdocs\mycms\protected\views\layouts\main.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(214): CContentDecorator->run()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(308): SiteController->endWidget()
+#5 C:\xampp\htdocs\mycms\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(33): SiteController->render()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/site/index
+in C:\xampp\htdocs\mycms\protected\views\layouts\main.php (52)
+in C:\xampp\htdocs\mycms\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (33)
+2015/09/09 22:47:48 [error] [php] Undefined variable: url (C:\xampp\htdocs\mycms\protected\views\layouts\main.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(214): CContentDecorator->run()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(308): SiteController->endWidget()
+#5 C:\xampp\htdocs\mycms\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(33): SiteController->render()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/site/index
+in C:\xampp\htdocs\mycms\protected\views\layouts\main.php (52)
+in C:\xampp\htdocs\mycms\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (33)
+2015/09/09 22:51:19 [error] [php] Undefined variable: url (C:\xampp\htdocs\mycms\protected\views\layouts\main.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(214): CContentDecorator->run()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(308): SiteController->endWidget()
+#5 C:\xampp\htdocs\mycms\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(33): SiteController->render()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/index.php/site/index
+in C:\xampp\htdocs\mycms\protected\views\layouts\main.php (52)
+in C:\xampp\htdocs\mycms\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (33)
+2015/09/09 23:01:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "termsandconditions".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('termsandconditi...')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('termsandconditi...')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/termsandco...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/index.php/site/termsandconditions
+HTTP_REFERER=http://localhost/mycms/index.php/site/index
+---
+2015/09/10 20:46:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "obcms/create".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/create')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/obcms/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/10 20:46:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "obcms/admin".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/admin')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/obcms/admin
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/10 20:47:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ObSection".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('ObSection')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('ObSection')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/ObSection...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/admin
+---
+2015/09/10 20:47:21 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\DefaultController.php(7): CController->render('index')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms')
+#8 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mycms/obcms/
+---
+2015/09/10 20:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ObSection/admin".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('ObSection/admin')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/index.php/ObSection/admin
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/10 20:58:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "obcms/create".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/create')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/obcms/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/10 21:08:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('logout')
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/ObSection...')
+#9 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/mycms/obcms/ObSection/logout
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/admin
+---
+2015/09/10 21:09:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about-us".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('about-us')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/about-us
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/10 21:23:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('home')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/home
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/10 21:24:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about-us".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('about-us')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/about-us
+HTTP_REFERER=http://localhost/mycms/home
+---
+2015/09/10 21:27:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about-us".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('about-us')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/about-us
+HTTP_REFERER=http://localhost/mycms/home
+---
+2015/09/10 21:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/about-us
+---
+2015/09/10 21:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+---
+2015/09/10 21:32:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Contact".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('Contact')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/Contact
+---
+2015/09/10 21:33:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Contact".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('Contact')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/Contact
+---
+2015/09/10 21:33:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('contact')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/contact
+---
+2015/09/10 21:33:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('contact')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/contact
+---
+2015/09/10 21:35:30 [error] [exception.CException] exception 'CException' with message 'Obsection and its behaviors do not have a method or closure named "findByAttribute".' in C:\xampp\htdocs\yii 1.1\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findByAttribute', Array)
+#1 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(52): CActiveRecord->__call('findByAttribute', Array)
+#2 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(52): Obsection->findByAttribute(Array)
+#3 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionAboutus()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('aboutus')
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/aboutus')
+#9 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/mycms/site/aboutus
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/10 21:35:44 [error] [exception.CException] exception 'CException' with message 'Obsection and its behaviors do not have a method or closure named "findByAttribute".' in C:\xampp\htdocs\yii 1.1\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findByAttribute', Array)
+#1 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(52): CActiveRecord->__call('findByAttribute', Array)
+#2 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(52): Obsection->findByAttribute(Array)
+#3 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionAboutus()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('aboutus')
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/aboutus')
+#9 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/mycms/site/aboutus
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/10 21:36:25 [error] [php] Object of class CInlineAction could not be converted to string (C:\xampp\htdocs\yii 1.1\framework\db\CDbCommand.php:275)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\db\schema\CDbCommandBuilder.php(100): CMysqlCommandBuilder->bindValues()
+#1 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(1355): CMysqlCommandBuilder->createFindCommand()
+#2 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(1524): Obsection->query()
+#3 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(52): Obsection->findByAttributes()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionAboutus()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/site/aboutus
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (52)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/10 21:36:51 [error] [php] Object of class CInlineAction could not be converted to string (C:\xampp\htdocs\yii 1.1\framework\db\CDbCommand.php:275)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\db\schema\CDbCommandBuilder.php(100): CMysqlCommandBuilder->bindValues()
+#1 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(1355): CMysqlCommandBuilder->createFindCommand()
+#2 C:\xampp\htdocs\yii 1.1\framework\db\ar\CActiveRecord.php(1524): Obsection->query()
+#3 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(52): Obsection->findByAttributes()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionAboutus()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/site/aboutus
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (52)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/10 21:37:31 [error] [php] Object of class CInlineAction could not be converted to string (C:\xampp\htdocs\mycms\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/site/aboutus
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (52)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/10 21:41:04 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): CController->renderPartial('aboutus', Array, true)
+#1 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(53): CController->render('aboutus', Array)
+#2 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionAboutus()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('aboutus')
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/aboutus')
+#8 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mycms/site/aboutus
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/10 21:41:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/about...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/site/site/aboutus
+HTTP_REFERER=http://localhost/mycms/site/aboutus
+---
+2015/09/10 21:55:45 [error] [php] Undefined variable: url (C:\xampp\htdocs\mycms\protected\views\layouts\main.php:46)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(214): CContentDecorator->run()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(308): SiteController->endWidget()
+#5 C:\xampp\htdocs\mycms\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(126): require()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(784): SiteController->renderFile()
+#9 C:\xampp\htdocs\mycms\protected\controllers\SiteController.php(33): SiteController->render()
+#10 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#13 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#15 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#16 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/
+in C:\xampp\htdocs\mycms\protected\views\layouts\main.php (46)
+in C:\xampp\htdocs\mycms\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (33)
+2015/09/10 21:56:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/10 21:56:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "team".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('team')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/team
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/10 21:56:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/team
+---
+2015/09/10 21:56:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "team".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('team')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('team')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/team')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/team
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/10 22:06:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/obSection/update/id/2
+---
+2015/09/10 22:11:56 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\DefaultController.php(7): CController->render('index')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms')
+#8 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/mycms/obcms/
+---
+2015/09/12 20:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/12 20:49:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "team".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('team')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/team
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/12 20:49:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/team
+---
+2015/09/13 19:29:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+---
+2015/09/13 19:29:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "letswork".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('letswork')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/letswork
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/13 19:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "deephouse".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('deephouse')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/deephouse
+HTTP_REFERER=http://localhost/mycms/letswork
+---
+2015/09/13 19:29:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "termsandconditions".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('termsandconditi...')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/termsandconditions
+HTTP_REFERER=http://localhost/mycms/deephouse
+---
+2015/09/13 19:29:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "how-to-make-money".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('how-to-make-mon...')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/how-to-make-money
+HTTP_REFERER=http://localhost/mycms/termsandconditions
+---
+2015/09/13 19:29:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "team".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('team')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/team
+HTTP_REFERER=http://localhost/mycms/how-to-make-money
+---
+2015/09/13 19:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/team
+---
+2015/09/13 19:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "how-to-make-money".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('how-to-make-mon...')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('how-to-make-mon...')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/how-to-mak...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/how-to-make-money
+HTTP_REFERER=http://localhost/mycms/team
+---
+2015/09/13 19:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/admin
+---
+2015/09/13 19:31:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/how-to-make-money
+---
+2015/09/13 19:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/13 19:31:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "team".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('team')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/team
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/13 19:34:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "team".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('team')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/team
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/13 19:34:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/team
+---
+2015/09/13 19:35:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/team
+---
+2015/09/13 19:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/team
+---
+2015/09/13 19:35:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/ObSection...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/site/admin
+---
+2015/09/13 19:41:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/admin
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/
+---
+2015/09/13 19:42:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/
+---
+2015/09/13 19:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/obcms...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/site/obcms/ObSection/
+---
+2015/09/13 19:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "module".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('module')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('module')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/module/obc...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/module/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/
+---
+2015/09/13 19:46:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "module".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('module')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('module')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/module/obc...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/module/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/
+---
+2015/09/13 19:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "module".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('module')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('module')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/module/obc...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/module/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/
+---
+2015/09/13 19:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "module".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('module')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('module')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/module/obc...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/module/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/
+---
+2015/09/13 19:48:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "module".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('module')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('module')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/module/obc...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/module/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/
+---
+2015/09/13 19:48:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "module".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('module')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('module')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/module/obc...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/module/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/
+---
+2015/09/13 19:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "module".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('module')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('module')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/module/obc...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/module/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/
+---
+2015/09/13 19:48:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/create
+---
+2015/09/13 19:48:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/13 19:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/admin
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/create
+---
+2015/09/13 19:51:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/admin
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/create
+---
+2015/09/13 19:58:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/13 19:59:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/13 20:00:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sdfsdaboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('sdfsdaboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('sdfsdaboutus')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/sdfsdabout...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/13 20:01:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dsfsdaboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('dsfsdaboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('dsfsdaboutus')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dsfsdabout...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/13 20:01:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dsfsdteam".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('dsfsdteam')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('dsfsdteam')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dsfsdteam')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/team
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/13 20:02:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dsfsdobcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('dsfsdobcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('dsfsdobcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/dsfsdobcms...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/13 20:05:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dssdf".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('dssdf')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/13 20:05:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dssdf".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('dssdf')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/13 20:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dssdf<action>".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('dssdf<action>')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/13 20:06:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dssdf<action>".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('dssdf<action>')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/13 20:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dssdf<action>".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('dssdf<action>')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/13 20:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<action>".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('<action>')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('<action>')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/<action>')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/13 20:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<action>".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('<action>')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('<action>')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/<action>')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/13 20:06:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller>/<action>".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('<controller>/<a...')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/13 20:06:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller>/<action>".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('<controller>/<a...')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/obcms/ObSection/admin
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/create
+---
+2015/09/13 20:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/13 20:07:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/admin
+---
+2015/09/13 20:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/admin
+---
+2015/09/13 20:26:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/13 20:27:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus
+---
+2015/09/13 20:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/admin
+---
+2015/09/13 20:29:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/admin
+---
+2015/09/13 20:30:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/admin
+---
+2015/09/13 20:32:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "obcms".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('obcms')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('obcms')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/obcms/ObSe...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/create
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/admin
+---
+2015/09/13 20:34:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "home".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('home')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('home')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/home')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/home
+---
+2015/09/13 20:35:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "home".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('home')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('home')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/home')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/home
+---
+2015/09/13 20:38:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "home".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('home')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('home')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/home')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/home
+---
+2015/09/13 20:38:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "how-to-make-money".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('how-to-make-mon...')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/how-to-make-money
+HTTP_REFERER=http://localhost/mycms/team
+---
+2015/09/13 20:39:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/ObSection...')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/obcms/ObSection/site/create
+---
+2015/09/13 20:39:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "obcms/create/ObSection/create".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/create/Ob...')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/obcms/create/ObSection/create
+---
+2015/09/13 20:42:47 [error] [php] Undefined variable: id (C:\xampp\htdocs\mycms\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/aboutus
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (52)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/13 20:42:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus/view".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus/view')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus/12
+---
+2015/09/13 20:43:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus/view".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus/view')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus/12
+---
+2015/09/13 20:43:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus/view".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus/view')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus/12
+---
+2015/09/13 20:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus/view".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus/view')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus/12
+---
+2015/09/13 20:43:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus/id=12".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus/id=12')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus/id=12
+---
+2015/09/13 20:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus/
+---
+2015/09/13 20:43:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus/
+---
+2015/09/13 20:43:53 [error] [php] Undefined variable: id (C:\xampp\htdocs\mycms\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/aboutus/
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (52)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/13 20:44:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus/view".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus/view')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus/12
+---
+2015/09/13 20:44:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aboutus/id".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('aboutus/id')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/aboutus/id/12
+---
+2015/09/13 20:44:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "12".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('12')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('12')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/12')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/12
+---
+2015/09/13 20:44:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "id/view".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('id/view')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/id/12
+---
+2015/09/13 20:44:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "id/aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('id/aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/id/aboutus
+HTTP_REFERER=http://localhost/mycms/id/12
+---
+2015/09/13 20:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "id/team".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('id/team')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/id/team
+HTTP_REFERER=http://localhost/mycms/id/aboutus
+---
+2015/09/13 20:45:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "id/aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('id/aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/id/aboutus
+HTTP_REFERER=http://localhost/mycms/id/team
+---
+2015/09/13 20:45:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "id/aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('id/aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/id/aboutus
+---
+2015/09/13 20:45:14 [error] [php] Undefined variable: id (C:\xampp\htdocs\mycms\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/aboutus
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (52)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/13 20:45:15 [error] [php] Undefined variable: id (C:\xampp\htdocs\mycms\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/aboutus
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (52)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/13 20:45:18 [error] [php] Undefined variable: id (C:\xampp\htdocs\mycms\protected\controllers\SiteController.php:52)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/aboutus
+in C:\xampp\htdocs\mycms\protected\controllers\SiteController.php (52)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/13 20:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "id/aboutus".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('id/aboutus')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/id/aboutus
+---
+2015/09/13 21:32:51 [error] [php] file_get_contents(protected/modules/obcms/views/template.php): failed to open stream: No such file or directory (C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php:78)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/obcms/ObSection/create
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (78)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/13 21:33:40 [error] [php] file_get_contents(protected/views/site/template.php): failed to open stream: No such file or directory (C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php:78)
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(133): ObSectionController->runAction()
+#2 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): ObSectionController->filterAccessControl()
+#5 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): ObSectionController->runActionWithFilters()
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): ObSectionController->run()
+#9 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\mycms\index.php(13): CWebApplication->run()
+REQUEST_URI=/mycms/obcms/ObSection/create
+in C:\xampp\htdocs\mycms\protected\modules\obcms\controllers\ObSectionController.php (78)
+in C:\xampp\htdocs\mycms\index.php (13)
+2015/09/13 21:38:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "soft".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('soft')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('soft')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/soft')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/soft
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/13 21:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "letswork".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('letswork')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('letswork')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/letswork')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/letswork
+HTTP_REFERER=http://localhost/mycms/aboutus
+---
+2015/09/15 19:11:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('gii')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('gii')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/gii
+---
+2015/09/15 19:12:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('gii')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('gii')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/index.php/gii/
+---
+2015/09/15 19:13:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('gii')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('gii')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/gii')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/gii
+---
+2015/09/15 19:21:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "deephouse".' in C:\xampp\htdocs\yii 1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(270): CController->missingAction('deephouse')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('deephouse')
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/deephouse')
+#3 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/mycms/deephouse
+HTTP_REFERER=http://localhost/mycms/
+---
+2015/09/15 19:52:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/ObSection...')
+#9 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/mycms/obcms/ObSection/admin
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection
+---
+2015/09/15 19:52:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/ObSection...')
+#9 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/mycms/obcms/ObSection/admin
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/create
+---
+2015/09/15 19:53:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/ObSection...')
+#9 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/mycms/obcms/ObSection/admin
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/create
+---
+2015/09/15 19:53:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/ObSection...')
+#9 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/mycms/obcms/ObSection/admin
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/create
+---
+2015/09/15 19:58:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii 1.1\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii 1.1\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii 1.1\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('obcms/ObSection...')
+#9 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/mycms/obcms/ObSection/admin
+HTTP_REFERER=http://localhost/mycms/obcms/ObSection/create
+---
+2015/09/27 13:56:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "deephouse".' in C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii 1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('deephouse')
+#1 C:\xampp\htdocs\yii 1.1\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\mycms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/mycms/deephouse
+HTTP_REFERER=http://localhost/mycms/
+---

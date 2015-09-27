@@ -1,25 +1,24 @@
 <?php
 
 /**
- * This is the model class for table "obsection".
+ * This is the model class for table "siteadmin".
  *
- * The followings are the available columns in table 'obsection':
- * @property string $sectionTitle
- * @property string $sectionName
- * @property integer $sectionTypeID
+ * The followings are the available columns in table 'siteadmin':
  * @property integer $id
- * @property integer $order
- * @property integer $parentID
- * @property string $sectionContent
+ * @property string $username
+ * @property string $password
+ * @property string $email
+ * @property string $recoveryQuestion
+ * @property integer $userLevelID
  */
-class Obsection extends CActiveRecord
+class Siteadmin extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'obsection';
+		return 'siteadmin';
 	}
 
 	/**
@@ -30,13 +29,12 @@ class Obsection extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('sectionTitle, sectionName, sectionTypeID, order', 'required'),
-			array('sectionTypeID, order, parentID', 'numerical', 'integerOnly'=>true),
-			array('sectionTitle, sectionName', 'length', 'max'=>50),
-			array('sectionContent', 'length', 'max'=>60000),
+			array('username, password, email, recoveryQuestion, userLevelID', 'required'),
+			array('userLevelID', 'numerical', 'integerOnly'=>true),
+			array('username, password, email, recoveryQuestion', 'length', 'max'=>1000),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('sectionTitle, sectionName, sectionTypeID, id, order, parentID, sectionContent', 'safe', 'on'=>'search'),
+			array('id, username, password, email, recoveryQuestion, userLevelID', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -48,7 +46,6 @@ class Obsection extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-                    'sectionType'=>array(self::BELONGS_TO, 'Obsectiontype', 'sectionTypeID')
 		);
 	}
 
@@ -58,13 +55,12 @@ class Obsection extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'sectionTitle' => 'Section Title',
-			'sectionName' => 'Section Name',
-			'sectionTypeID' => 'Section Type',
 			'id' => 'ID',
-			'order' => 'Order',
-			'parentID' => 'Parent',
-			'sectionContent' => 'Section Content',
+			'username' => 'Username',
+			'password' => 'Password',
+			'email' => 'Email',
+			'recoveryQuestion' => 'Recovery Question',
+			'userLevelID' => 'User Level',
 		);
 	}
 
@@ -86,13 +82,12 @@ class Obsection extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('sectionTitle',$this->sectionTitle,true);
-		$criteria->compare('sectionName',$this->sectionName,true);
-		$criteria->compare('sectionTypeID',$this->sectionTypeID);
 		$criteria->compare('id',$this->id);
-		$criteria->compare('order',$this->order);
-		$criteria->compare('parentID',$this->parentID);
-		$criteria->compare('sectionContent',$this->sectionContent,true);
+		$criteria->compare('username',$this->username,true);
+		$criteria->compare('password',$this->password,true);
+		$criteria->compare('email',$this->email,true);
+		$criteria->compare('recoveryQuestion',$this->recoveryQuestion,true);
+		$criteria->compare('userLevelID',$this->userLevelID);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -103,7 +98,7 @@ class Obsection extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Obsection the static model class
+	 * @return Siteadmin the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

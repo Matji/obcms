@@ -10,7 +10,7 @@ class ObcmsModule extends CWebModule
 		// import the module-level models and components
 		$this->setImport(array(
 			'obcms.models.*',
-			'obcms.components.*',
+			'obcms.components.*', 
 		));
 	}
 

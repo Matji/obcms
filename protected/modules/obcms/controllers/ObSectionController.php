@@ -23,21 +23,21 @@ class ObSectionController extends Controller
 	 * Specifies the access control rules.
 	 * This method is used by the 'accessControl' filter.
 	 * @return array access control rules
-	 */
+	 */ 
 	public function accessRules()
 	{
 		return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
-				'users'=>array('*'),
-			),
+//			array('allow',  // allow all users to perform 'index' and 'view' actions
+//				'actions'=>array(),
+//				'users'=>array('*'),
+//			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update', 'logout', 'view', 'index'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
+				'actions'=>array('admin','delete', 'logout'),
+				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -50,7 +50,8 @@ class ObSectionController extends Controller
 	 * @param integer $id the ID of the model to be displayed
 	 */
 	public function actionView($id)
-	{
+	{       
+                 $this->layout = "admin-main";
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
@@ -61,22 +62,42 @@ class ObSectionController extends Controller
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
 	public function actionCreate()
-	{
-		$model=new Obsection;
-                $obSection = Obsection::model()->with('sectionType')->findAll();
+	{            
+                $this->layout = "admin-main";
+		$model=new Obsection; 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
+		$this->performAjaxValidation($model);
+                $sectionType = Obsectiontype::model()->findAll();  
 		if(isset($_POST['Obsection']))
 		{
-			$model->attributes=$_POST['Obsection'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
-		}
-print_r($obSection[0]);
+			   $model->attributes=$_POST['Obsection'];
+                          //write a template php file 
+                            $filename = $model->sectionName.'.php';                            
+                            if(!file_exists('protected/views/site/'.$filename))
+                            {
+                                $defaultContent = '<?php print_r($model); ?>';
+                                if(file_put_contents('protected/views/site/'.$filename, $defaultContent))
+                                {
+                                    if($model->save())
+                                    {
+                                       $this->redirect(array('view','id'=>$model->id)); 
+                                    }
+                                }
+                                else
+                                {
+                                     echo 'cant write file';
+                                }
+                                   
+                            }
+                            else
+                            {
+                                echo 'This section already exists';
+                            }
+                               
+		} 
 		$this->render('create',array(
 			'model'=>$model,
-                        'obSection'=>$obSection
+                        'sectionType'=>$sectionType
 		));
 	}
 
@@ -87,10 +108,11 @@ print_r($obSection[0]);
 	 */
 	public function actionUpdate($id)
 	{
+                $this->layout = "admin-main";
 		$model=$this->loadModel($id);
-
+                $sectionType = Obsectiontype::model()->findAll(); 
 		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+		 $this->performAjaxValidation($model);
 
 		if(isset($_POST['Obsection']))
 		{
@@ -101,6 +123,7 @@ print_r($obSection[0]);
 
 		$this->render('update',array(
 			'model'=>$model,
+                        'sectionType'=>$sectionType
 		));
 	}
 
@@ -122,7 +145,8 @@ print_r($obSection[0]);
 	 * Lists all models.
 	 */
 	public function actionIndex()
-	{
+	{ 
+                $this->layout = "admin-main";
 		$dataProvider=new CActiveDataProvider('Obsection');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
@@ -134,6 +158,7 @@ print_r($obSection[0]);
 	 */
 	public function actionAdmin()
 	{
+                $this->layout = "admin-main";
 		$model=new Obsection('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Obsection']))
@@ -143,6 +168,7 @@ print_r($obSection[0]);
 			'model'=>$model,
 		));
 	}
+         
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
@@ -171,4 +197,9 @@ print_r($obSection[0]);
 			Yii::app()->end();
 		}
 	}
+	public function actionLogout()
+	{
+		Yii::app()->user->logout();
+		$this->redirect(Yii::app()->homeUrl);
+	}        
 }

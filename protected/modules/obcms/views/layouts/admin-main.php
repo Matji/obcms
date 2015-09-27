@@ -28,29 +28,14 @@
 
 	<div id="mainmenu">
             <?php
-           
-           $listItems= array(); 
-           $model = Obsection::model()->findAll();
-           foreach($model as $key=>$val)
-           {
-               $title ;
-               $url;               
-               foreach($val as $k=>$v)
-               {
-                   if($k=='sectionTitle')
-                   {
-                      $title = $v; 
-                   }
-                   if($k=='sectionName')
-                   {
-                       $url = $v;  
-                   } 
-               }
-                $tempArr = array('label'=>$title, 'url'=>$url);
-                array_push($listItems, $tempArr);
-           } 
+     
             $this->widget('zii.widgets.CMenu',array(
-                    'items'=> $listItems,
+                    'items'=> array(
+                        array('label'=>'Manage Sections', 'url'=>Yii::app()->createUrl('obcms/ObSection/admin')),
+                        array('label'=>'Create', 'url'=>Yii::app()->createUrl('obcms/ObSection/create')),
+                        array('label'=>'View Site', 'url'=>Yii::app()->homeUrl),
+                        array('label'=>'Logout', 'url'=>Yii::app()->createUrl('obcms/ObSection/logout'))
+                    ),
             )); 
                 
                 ?>

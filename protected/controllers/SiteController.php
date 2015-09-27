@@ -29,12 +29,14 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
+            
 		$this->render('index');
 	}
 
 	/**
 	 * This is the action to handle external exceptions.
 	 */
+        
 	public function actionError()
 	{
 		if($error=Yii::app()->errorHandler->error)
@@ -46,9 +48,18 @@ class SiteController extends Controller
 		}
 	}
 
-	/**
-	 * Displays the contact page
-	 */
+	public function actionAboutus()
+        {              
+             $model = Obsection::model()->findByAttributes(array('sectionName'=>Yii::app()->controller->action->id));
+             $this->render('aboutus', array('model'=>$model));
+        }
+        
+        public function actionTeam()
+        {
+            $model = Obsection::model()->findByAttributes(array('sectionName'=>Yii::app()->controller->action->id));
+            $this->render('team', array('model'=>$model));            
+        }
+        
 	public function actionContact()
 	{
 		$model=new ContactForm;
@@ -71,7 +82,7 @@ class SiteController extends Controller
 		}
 		$this->render('contact',array('model'=>$model));
 	}
-
+ 
 	/**
 	 * Displays the login page
 	 */

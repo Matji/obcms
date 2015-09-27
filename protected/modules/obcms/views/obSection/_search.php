@@ -32,8 +32,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'order'); ?>
-		<?php echo $form->textField($model,'order'); ?>
+		<?php echo $form->label($model,'orderlist'); ?>
+		<?php echo $form->textField($model,'orderlist'); ?>
 	</div>
 
 	<div class="row">
